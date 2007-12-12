@@ -1,6 +1,6 @@
 %define name		vmoconv
 %define version		1.0
-%define release		1mdk
+%define release		%mkrel 1
 
 Name:			%{name}
 Version:		%{version}
