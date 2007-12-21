@@ -9,6 +9,7 @@ License:		GPL
 Source0:		http://triq.net/obexftp/%name-%version.tar.bz2
 Group:			Sound
 URL:			http://triq.net/obex/downloads.html
+BuildRoot:		%{_tmppath}/%{name}-%{version}-root
 Summary:		VMO/VMI to GSM/WAV audio converter
 
 %description
