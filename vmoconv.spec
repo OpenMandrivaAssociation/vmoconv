@@ -12,6 +12,11 @@ URL:			https://triq.net/obex/downloads.html
 BuildRoot:		%{_tmppath}/%{name}-%{version}-root
 Summary:		VMO/VMI to GSM/WAV audio converter
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 VMOconv converts Siemens phones VMO and VMI audio files to gsm and wav.
 
